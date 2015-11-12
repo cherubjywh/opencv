@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EB23E21BF3C3D8002C73DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3EB23E11BF3C3D8002C73DD /* main.cpp */; };
+		B3EB23EF1BF42B9C002C73DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3EB23EE1BF42B9C002C73DD /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3EB23DC1BF3C3D8002C73DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B3EB23EA1BF42B9B002C73DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3EB23DE1BF3C3D8002C73DD /* opencv_exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_exercise; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EB23E11BF3C3D8002C73DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3EB23EC1BF42B9B002C73DD /* read_display_image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = read_display_image; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EB23EE1BF42B9C002C73DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EB23DB1BF3C3D8002C73DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EB23E91BF42B9B002C73DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EB23D51BF3C3D8002C73DD = {
+			isa = PBXGroup;
+			children = (
+				B3EB23E01BF3C3D8002C73DD /* opencv_exercise */,
+				B3EB23ED1BF42B9C002C73DD /* read_display_image */,
+				B3EB23DF1BF3C3D8002C73DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EB23DF1BF3C3D8002C73DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB23DE1BF3C3D8002C73DD /* opencv_exercise */,
+				B3EB23EC1BF42B9B002C73DD /* read_display_image */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EB23E01BF3C3D8002C73DD /* opencv_exercise */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB23E11BF3C3D8002C73DD /* main.cpp */,
+			);
+			path = opencv_exercise;
+			sourceTree = "<group>";
+		};
+		B3EB23ED1BF42B9C002C73DD /* read_display_image */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB23EE1BF42B9C002C73DD /* main.cpp */,
+			);
+			path = read_display_image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EB23DD1BF3C3D8002C73DD /* opencv_exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EB23E51BF3C3D8002C73DD /* Build configuration list for PBXNativeTarget "opencv_exercise" */;
+			buildPhases = (
+				B3EB23DA1BF3C3D8002C73DD /* Sources */,
+				B3EB23DB1BF3C3D8002C73DD /* Frameworks */,
+				B3EB23DC1BF3C3D8002C73DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencv_exercise;
+			productName = opencv_exercise;
+			productReference = B3EB23DE1BF3C3D8002C73DD /* opencv_exercise */;
+			productType = "com.apple.product-type.tool";
+		};
+		B3EB23EB1BF42B9B002C73DD /* read_display_image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EB23F01BF42B9C002C73DD /* Build configuration list for PBXNativeTarget "read_display_image" */;
+			buildPhases = (
+				B3EB23E81BF42B9B002C73DD /* Sources */,
+				B3EB23E91BF42B9B002C73DD /* Frameworks */,
+				B3EB23EA1BF42B9B002C73DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = read_display_image;
+			productName = read_display_image;
+			productReference = B3EB23EC1BF42B9B002C73DD /* read_display_image */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EB23D61BF3C3D8002C73DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yuyin Sun";
+				TargetAttributes = {
+					B3EB23DD1BF3C3D8002C73DD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B3EB23EB1BF42B9B002C73DD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B3EB23D91BF3C3D8002C73DD /* Build configuration list for PBXProject "opencv_exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3EB23D51BF3C3D8002C73DD;
+			productRefGroup = B3EB23DF1BF3C3D8002C73DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EB23DD1BF3C3D8002C73DD /* opencv_exercise */,
+				B3EB23EB1BF42B9B002C73DD /* read_display_image */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EB23DA1BF3C3D8002C73DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EB23E21BF3C3D8002C73DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EB23E81BF42B9B002C73DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EB23EF1BF42B9C002C73DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3EB23E31BF3C3D8002C73DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3EB23E41BF3C3D8002C73DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3EB23E61BF3C3D8002C73DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+					"-lopencv_stitching",
+					"-lopencv_legacy",
+					"-lopencv_contrib",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_features2d",
+					"-lopencv_video",
+					"-lopencv_ml",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3EB23E71BF3C3D8002C73DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+					"-lopencv_stitching",
+					"-lopencv_legacy",
+					"-lopencv_contrib",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_features2d",
+					"-lopencv_video",
+					"-lopencv_ml",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3EB23F11BF42B9C002C73DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3EB23F21BF42B9C002C73DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EB23D91BF3C3D8002C73DD /* Build configuration list for PBXProject "opencv_exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EB23E31BF3C3D8002C73DD /* Debug */,
+				B3EB23E41BF3C3D8002C73DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EB23E51BF3C3D8002C73DD /* Build configuration list for PBXNativeTarget "opencv_exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EB23E61BF3C3D8002C73DD /* Debug */,
+				B3EB23E71BF3C3D8002C73DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EB23F01BF42B9C002C73DD /* Build configuration list for PBXNativeTarget "read_display_image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EB23F11BF42B9C002C73DD /* Debug */,
+				B3EB23F21BF42B9C002C73DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EB23D61BF3C3D8002C73DD /* Project object */;
+}
