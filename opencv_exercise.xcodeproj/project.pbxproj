@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B39F117F1BF440430039422B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B39F117E1BF440430039422B /* main.cpp */; };
 		B3EB23E21BF3C3D8002C73DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3EB23E11BF3C3D8002C73DD /* main.cpp */; };
 		B3EB23EF1BF42B9C002C73DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3EB23EE1BF42B9C002C73DD /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B39F117A1BF440430039422B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B3EB23DC1BF3C3D8002C73DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B39F117C1BF440430039422B /* capture_video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = capture_video; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39F117E1BF440430039422B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B3EB23DE1BF3C3D8002C73DD /* opencv_exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EB23E11BF3C3D8002C73DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B3EB23EC1BF42B9B002C73DD /* read_display_image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = read_display_image; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B39F11791BF440430039422B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3EB23DB1BF3C3D8002C73DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B39F117D1BF440430039422B /* capture_video */ = {
+			isa = PBXGroup;
+			children = (
+				B39F117E1BF440430039422B /* main.cpp */,
+			);
+			path = capture_video;
+			sourceTree = "<group>";
+		};
 		B3EB23D51BF3C3D8002C73DD = {
 			isa = PBXGroup;
 			children = (
 				B3EB23E01BF3C3D8002C73DD /* opencv_exercise */,
 				B3EB23ED1BF42B9C002C73DD /* read_display_image */,
+				B39F117D1BF440430039422B /* capture_video */,
 				B3EB23DF1BF3C3D8002C73DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				B3EB23DE1BF3C3D8002C73DD /* opencv_exercise */,
 				B3EB23EC1BF42B9B002C73DD /* read_display_image */,
+				B39F117C1BF440430039422B /* capture_video */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B39F117B1BF440430039422B /* capture_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39F11801BF440430039422B /* Build configuration list for PBXNativeTarget "capture_video" */;
+			buildPhases = (
+				B39F11781BF440430039422B /* Sources */,
+				B39F11791BF440430039422B /* Frameworks */,
+				B39F117A1BF440430039422B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = capture_video;
+			productName = capture_video;
+			productReference = B39F117C1BF440430039422B /* capture_video */;
+			productType = "com.apple.product-type.tool";
+		};
 		B3EB23DD1BF3C3D8002C73DD /* opencv_exercise */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3EB23E51BF3C3D8002C73DD /* Build configuration list for PBXNativeTarget "opencv_exercise" */;
@@ -137,6 +183,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Yuyin Sun";
 				TargetAttributes = {
+					B39F117B1BF440430039422B = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					B3EB23DD1BF3C3D8002C73DD = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -159,11 +208,20 @@
 			targets = (
 				B3EB23DD1BF3C3D8002C73DD /* opencv_exercise */,
 				B3EB23EB1BF42B9B002C73DD /* read_display_image */,
+				B39F117B1BF440430039422B /* capture_video */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B39F11781BF440430039422B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39F117F1BF440430039422B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3EB23DA1BF3C3D8002C73DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +241,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B39F11811BF440430039422B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B39F11821BF440430039422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B3EB23E31BF3C3D8002C73DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +446,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B39F11801BF440430039422B /* Build configuration list for PBXNativeTarget "capture_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39F11811BF440430039422B /* Debug */,
+				B39F11821BF440430039422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B3EB23D91BF3C3D8002C73DD /* Build configuration list for PBXProject "opencv_exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
