@@ -13,12 +13,12 @@ using namespace std;
 using namespace cv;
 
 
-void write_video_to_file () {
+bool write_video_to_file () {
     VideoCapture cap(0);
     
     if (!cap.isOpened()) {
         cout << "Error: Cannot open the video file" << endl;
-        return;
+        return false;
     }
     
     namedWindow("My Video", CV_WINDOW_FULLSCREEN);
@@ -30,6 +30,36 @@ void write_video_to_file () {
     
     Size frameSize(static_cast<int>(dWidth), static_cast<int>(dHeight));
     
+    VideoWriter oVideoWriter("/Users/sunyuyin/Desktop/test_output.mp4", CV_FOURCC('M', 'P', '4', '2'), 20, frameSize, true);
+    
+    if (!oVideoWriter.isOpened()) {
+        cout << "Error: Failed to write the video" << endl;
+        return false;
+    }
+    
+    while (1) {
+        Mat frame;
+        
+        bool bSuccess = cap.read(frame);
+        
+        if (!bSuccess) {
+            cout << "Error: Cannot read a frame from video file" << endl;
+            break;
+        }
+        
+        oVideoWriter.write(frame);
+        
+        imshow("My Video", frame);
+        
+        if (waitKey(10) == 27) {
+            cout << "esc key is pressed by user" << endl;
+            break;
+        }
+    }
+    
+    destroyWindow("My Video");
+    
+    return true;
     
 }
 
@@ -54,6 +84,6 @@ void write_image_to_file () {
 
 int main(int argc, const char * argv[]) {
     
-    
+    write_video_to_file();
     return 0;
 }

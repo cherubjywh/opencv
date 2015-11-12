@@ -17,7 +17,7 @@ using namespace cv;
 void use_camera() {
     
     // Due to opencv version problem, this code does not work on Mac.
-    // I will try to fix it later
+    // I will try to fix it later, got fixed
     
     VideoCapture cap(-1);
     
