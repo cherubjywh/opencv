@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>image_filtering.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>object_segmentation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>opencv_exercise.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +38,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B31421211BF4E3D900A41EEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B314212C1BF5940400A41EEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B31421371BF5A5F000A41EEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
