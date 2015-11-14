@@ -14,7 +14,7 @@ using namespace cv;
 
 
 void read_show_image() {
-    Mat src = imread("/Users/sunyuyin/Desktop/test_image.jpg", CV_LOAD_IMAGE_UNCHANGED);
+    Mat src = imread("/Users/sunyuyin/Documents/Workspace/CPP/opencv_exercise/data/orl_faces/s1/1.pgm", CV_LOAD_IMAGE_UNCHANGED);
     
     if (src.empty()) {
         cout << "Error: Image cannot be loaded..!!" << endl;
